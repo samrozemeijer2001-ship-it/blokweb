@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Sam Rozemeijer Castricumse Rugby Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <a href="/" class="logo">Castricumse Rugby Club</a>
+
+    <nav aria-label="Hoofdmenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Ereklasse</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Nieuws</a></li>
+        <li><a href="#">Evenementen</a></li>
+        <li><a href="#">Club</a></li>
+        <li><a href="#">Lidmaatschap</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hoofdcontent: spelersprofiel -->
+    <article class="player">
+      <header class="player-header">
+        <h1>Sam Rozemeijer</h1>
+
+        <!-- Lijst met andere spelers -->
+        <nav aria-label="Andere spelers" class="player-list">
+          <ul>
+            <li><a href="#">Roy Schermer</a></li>
+            <li><a href="#">Lucas Paskins</a></li>
+            <li><a href="#">Tausinga Kautai</a></li>
+            <!-- ... etc, andere namen ... -->
+            <li><a href="#">Sam Rozemeijer</a></li>
+            <!-- ... etc ... -->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Foto + gegevensblok -->
+      <section class="player-info">
+        <figure class="player-photo">
+          <img src="images/sam-rozemeijer.jpg" alt="Sam Rozemeijer in Cas RC shirt">
+        </figure>
+
+        <!-- Gegevens in een beschrijvende lijst -->
+        <dl class="player-details">
+          <dt>Nationaliteit</dt>
+          <dd>
+            <img src="images/flag-nl.svg" alt="Vlag van Nederland" class="flag">
+            Nederland
+          </dd>
+
+          <dt>Positie</dt>
+          <dd>Lock</dd>
+
+          <dt>Huidige team</dt>
+          <dd>Cas RC</dd>
+
+          <dt>Eerdere teams</dt>
+          <dd>Cas RC 2</dd>
+        </dl>
+      </section>
+    </article>
+
+    <!-- Sidebar rechts -->
+    <aside class="sidebar">
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p><strong>Bezoekadres:</strong><br>
+          Van Haerlemlaan 29<br>
+          1901 JM Castricum
+        </p>
+        <p>
+          <a href="mailto:info@casrc.nl">info@casrc.nl</a>
+        </p>
+      </section>
+
+      <section class="recent-posts">
+        <h2>Recente berichten</h2>
+        <ul>
+          <li><a href="#">Uitnodiging: kom naar het clubhuis en juich Fabian toe bij de All Blacks</a></li>
+          <li><a href="#">Bart Wierenga jr. nieuwe hoofdcoach Cas1 en Rugby Coördinator</a></li>
+          <li><a href="#">Uitnodiging voor de seizoensafsluiting – Zaterdag 7 juni ben jij erbij</a></li>
+          <li><a href="#">Junioren ongeslagen kampioen</a></li>
+        </ul>
+      </section>
+
+      <section class="info-links">
+        <h2>Informatie</h2>
+        <ul>
+          <li><a href="#">Gedragscode</a></li>
+          <li><a href="#">Huishoudelijk Reglement</a></li>
+          <li><a href="#">Reglement Faciliteiten</a></li>
+          <li><a href="#">Statuten</a></li>
+        </ul>
+      </section>
+
+      <section class="search">
+        <h2>Zoeken</h2>
+        <form action="#" method="get">
+          <label for="search">Zoeken</label>
+          <input type="search" id="search" name="s" placeholder="Zoeken">
+          <button type="submit">Zoeken</button>
+        </form>
+      </section>
+
+      <section class="club-logo">
+        <img src="images/cas-rc-logo.png" alt="Castricumse Rugbyclub logo">
+      </section>
+
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Castricumse Rugby Club. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

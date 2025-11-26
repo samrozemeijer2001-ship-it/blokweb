@@ -1,0 +1,43 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+main p{
+	font-family: montserrat;
+}
+
+.banner{
+  background-color: black;
+  color: white;
+}
+
+
+.player-info img {
+	width: 200px;
+	hieght: auto;
+}
