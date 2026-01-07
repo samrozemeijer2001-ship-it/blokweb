@@ -1,0 +1,518 @@
+/* ============================= */
+/* BASIS */
+/* ============================= */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header {
+  background: #000;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a img {
+  width: 200px;
+}
+
+/* ============================= */
+/* NAV */
+/* ============================= */
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav img {
+  width: 20px;
+}
+
+/* menu lijst */
+nav ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background: #000;
+  display: none;
+  flex-direction: column;
+}
+
+nav ul.open {
+  display: flex;
+}
+
+nav ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid #333;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* hamburger */
+.hamburger {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* HERO (section 1) */
+/* ============================= */
+
+main > section:nth-of-type(1) {
+  background: url("../images/header\ achtegrond.jpg") center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 90px 20px 70px;
+}
+
+main > section:nth-of-type(1) h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+main > section:nth-of-type(1) p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+main > section:nth-of-type(1) h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid rgba(255,255,255,0.4);
+  display: inline-block;
+  padding: 10px;
+}
+
+/* ============================= */
+/* CONTENT SECTIES */
+/* ============================= */
+
+main > section:not(:first-of-type) {
+  padding: 35px 25px;
+}
+
+/* TITELS */
+main > section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* TEKST */
+main > section p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ============================= */
+/* WEDSTRIJD BLOK */
+/* ============================= */
+
+main > section:nth-of-type(3) {
+  background: white;
+  color: #fff;
+  text-align: center;
+}
+
+main > section:nth-of-type(3) figure {
+  margin: 15px 0;
+}
+
+main > section:nth-of-type(3) img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+main > section:nth-of-type(3) button {
+  background: #f0c038;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* MEET THE PLAYER */
+/* ============================= */
+main > section:nth-of-type(7),
+main > section:nth-of-type(9) {
+  background: linear-gradient(#000, #2a2a2a);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* ============================= */
+/* LAATSTE NIEUWS */
+/* ============================= */
+
+main > section:nth-of-type(8) article {
+  max-width: 320px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+main > section:nth-of-type(8) figure {
+  margin: 0;
+}
+
+main > section:nth-of-type(8) article > p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #313131;
+  text-transform: uppercase;
+  margin: 15px 0 5px;
+}
+
+main > section:nth-of-type(8) h3 {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+main > section:nth-of-type(8) article > a {
+  display: inline-block;
+  background: #f0c038;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+main > section:nth-of-type(8) article > p img {
+  width: 14px;
+}
+
+main > section:nth-of-type(8) figure img {
+  width: 100%;
+  display: block;
+}
+
+main > section:nth-of-type(8) ul{
+  list-style: none;
+  display: flex;
+  border-top: 1px solid #181818;
+}
+
+main > section:nth-of-type(8) article > ul p{
+  display: flex;
+  gap: 20px;           
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+main > section:nth-of-type(8) article > ul p img {
+  width: 14px;
+}
+
+/* ============================= */
+/* CAS IN BEELD */
+/* ============================= */
+
+main > section:nth-of-type(10) article {
+  max-width: 320px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+main > section:nth-of-type(10) figure {
+  margin: 0;
+}
+
+main > section:nth-of-type(10) article > p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #313131;
+  text-transform: uppercase;
+  margin: 15px 0 5px;
+}
+
+main > section:nth-of-type(10) h3 {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+main > section:nth-of-type(10) article > a {
+  display: inline-block;
+  background: #f0c038;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+main > section:nth-of-type(10) article > p img {
+  width: 14px;
+}
+
+main > section:nth-of-type(10) figure img {
+  width: 100%;
+  display: block;
+}
+
+main > section:nth-of-type(10) ul{
+  list-style: none;
+  display: flex;
+  border-top: 1px solid #181818;
+}
+
+main > section:nth-of-type(10) article > ul p{
+  display: flex;
+  gap: 20px;           
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+main > section:nth-of-type(10) article > ul p img {
+  width: 14px;
+}
+
+
+/* ============================= */
+/* SPONSORS */
+/* ============================= */
+
+main > section:nth-of-type(4) {
+  background: #fff;
+  text-align: center;
+}
+
+main > section:nth-of-type(4) figure {
+  margin: 20px 0;
+}
+
+/* ============================= */
+/* LIJSTEN */
+/* ============================= */
+
+main > section ul {
+  list-style: none;
+  padding: 0;
+}
+
+main > section ul li {
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+main button {
+  background: #f0c038;
+  border: none;
+  padding: 12px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+/* ============================= */
+/* TABELLEN */
+/* ============================= */
+
+/* horizontaal scrollen */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* tabel basis */
+table {
+  width: 100%;
+  min-width: 600px; /* forceer horizontaal scrollen */
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* koppen */
+thead th {
+  background: #000;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* cellen */
+tbody td {
+  padding: 12px;
+  border-bottom: none;
+  white-space: nowrap;
+}
+
+/* rijen */
+tr:last-child td {
+  border-bottom: none;
+}
+
+
+
+/* ============================= */
+/* FOOTER SECTIE */
+/* ============================= */
+
+main > section:last-of-type {
+  background: #111;
+  color: #fff;
+}
+
+main > section:last-of-type a {
+  color: #f0c038;
+  text-decoration: none;
+}
+
+main > section:last-of-type input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+  background: linear-gradient(#111, #1f1f1f);
+  color: #ccc;
+  padding: 40px 25px;
+  font-family: Arial, sans-serif;
+}
+
+/* FOOTER SECTIES */
+
+footer > section {
+  margin-bottom: 40px;
+}
+
+footer > section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* TITELS */
+
+footer h2 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 15px;
+}
+
+/* TEKST */
+
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  color: #ccc;
+}
+
+/* LINKS */
+
+footer a {
+  color: #f0c038;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* LIJSTEN */
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+footer ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 14px;
+}
+
+footer ul li:last-child {
+  border-bottom: none;
+}
+
+/* ZOEKEN */
+
+footer form {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 30px;
+}
+
+footer input[type="search"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+footer button {
+  padding: 10px 15px;
+  border: none;
+  background: #e6e6e6;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background: #ccc;
+}
+
+/* LOGO */
+
+footer figure {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+footer figure img {
+  max-width: 220px;
+}
+
