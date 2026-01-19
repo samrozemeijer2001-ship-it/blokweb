@@ -1,0 +1,417 @@
+/* ============================= */
+/* CUSTOM PROPERTIES */
+/* ============================= */
+
+@font-face {
+  font-family: "MTP";
+  src: url("../Merriweather-BlackItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #f0c038;
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-grey: #313131;
+  --light-txt-grey: #b3b3b3;
+  --color-border-dark: #181818;
+  --color-footer-bg-start: #111;
+  --color-footer-bg-end: #1f1f1f;
+
+  --font-base: "Roboto", Arial, sans-serif;
+}
+
+
+/* LADIES  */
+
+body.dames {
+  --color-primary: #fd8bf4;   
+  --color-dark: #8d002f;
+  --color-light: #ffb6cc;
+  --color-grey: #fdb9ff;
+  --light-txt-grey: #af2692;
+  --color-border-dark: #610337;
+  --color-footer-bg-start: #ff81b5;
+  --color-footer-bg-end: #e739a5;
+}
+
+/* ============================= */
+/* BASIS / RESET */
+/* ============================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-base);
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+
+/* ============================= */
+/* TYPOGRAFIE */
+/* ============================= */
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ============================= */
+/* ICONEN */
+/* ============================= */
+.icon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header {
+  background: var(--color-dark);
+  padding: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a img {
+  width: 12.5rem;
+}
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+main > section:nth-of-type(1) {
+  background: url("../images/header achtegrond.jpg") center / cover no-repeat;
+  color: var(--color-light);
+  text-align: center;
+  padding: 5.6rem 1.3rem 4.4rem;
+}
+
+main > section:nth-of-type(1) h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--light-txt-grey);
+  font-weight: 700;
+}
+
+main > section:nth-of-type(1) p {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light-txt-grey);
+  margin: 0.2rem 0;
+}
+
+main > section:nth-of-type(1) h3 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--light-txt-grey);
+  border: 1px solid var(--color-grey);
+  padding: 0.4rem 1.4rem;
+  display: inline-block;
+}
+
+/* ============================= */
+/* NAV MENU (HAMBURGER) */
+/* ============================= */
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+nav img {
+  width: 1.3rem;
+}
+
+/* verborgen menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+
+  background: var(--color-grey);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+
+  z-index: 1000;
+}
+
+/* open toestand */
+nav ul.open {
+  transform: translateX(0);
+}
+
+/* menu items */
+nav ul li {
+  padding: 1rem 2rem;
+  border-bottom: 1px var(--color-grey);
+}
+
+nav ul li a {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* hamburger knop */
+.hamburger {
+  background: none;
+  border: none;
+  color: var(--color-light);
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* ============================= */
+/* ALGEMENE ELEMENTEN */
+/* ============================= */
+
+main button {
+  background: var(--color-primary);
+  border: none;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+  background: var(--color-dark);
+  color: var(--color-light);
+  padding: 3rem 1.5rem 2rem;
+  font-family: var(--font-base);
+}
+
+footer section {
+  margin-bottom: 3rem;
+}
+
+footer h2 {
+  color: var(--color-light);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+footer h2:first-of-type {
+  margin-top: 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  color: var(--light-txt-grey) ; 
+}
+
+footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--color-primary);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  padding: 0.8rem 0;
+  border-bottom: 1px var(--color-dark);
+  font-size: 0.9rem;
+}
+
+footer li:last-child {
+  border-bottom: none;
+}
+
+footer form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+footer input[type="search"] {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  font-size: 0.9rem;
+}
+
+footer button {
+  background: var(--color-light);
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+}
+
+footer figure {
+  margin: 3rem auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+    width: 12px;
+    margin-top: 1rem;
+}
+
+footer figure img{
+  width: 15rem;
+  height: auto;
+}
+
+#scroll-top {
+  position: fixed;
+  right: 1.2rem;
+  bottom: 1.2rem;
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+
+  background: var(--color-grey);
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 1000;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* ============================= */
+/* TERUG NAAR TOPKNOP */
+/* ============================= */
+
+#scroll-top {
+  position: fixed;
+  right: 1.2rem;
+  bottom: 1.2rem;
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+
+  background: var(--color-grey);
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 2000;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#scroll-top img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* zichtbaarheid */
+#scroll-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* ============================= */
+/* PREFERS REDUCED MOTION */
+/* ============================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  /* Zet alles uit */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* sponsor-slider */
+  main > section:nth-of-type(4) > ul,
+  main > section:nth-of-type(12) > ul {
+    animation: none !important;
+  }
+
+  /* geen disco :,(*/
+  body.sam-party {
+    animation: none !important;
+    background-color: var(--color-dark);
+  }
+
+  /* geen dansje :,( */
+  body.sam-party #sam-trigger {
+    animation: none !important;
+  }
+}

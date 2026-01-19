@@ -2,25 +2,28 @@
 <html lang="nl">
 
 <head>
-  <link rel="stylesheet" href="styles/style.css">
   <meta charset="UTF-8">
-  <title>Sam Rozemeijer Castricumse Rugby Club</title>
+  <title>Castricumse Rugby Club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style-basis.css">
+  <link rel="stylesheet" href="styles/style-spelerspagina.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- HEADER -->
   <header>
-    <a href="Homepagina.html  ">
+    <a href="Homepagina.html">
       <img src="images/CasRC Logo.png" alt="Castricumse Rugby Club logo">
     </a>
 
     <nav>
       <img src="images/search-svgrepo-com (4).svg" alt="">
-      <button class="hamburger" aria-label="Menu openen">
-        ☰
-      </button>
+      <button class="hamburger" aria-label="Menu openen">☰</button>
+
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Ereklasse</a></li>
@@ -35,24 +38,39 @@
     </nav>
   </header>
 
+  <!-- MAIN CONTENT -->
   <main>
 
+    <!-- HERO -->
     <section>
-      <ul>
-        <li><a href="#">Roy Schermer</a></li>
-        <li><a href="#">Lucas Paskins</a></li>
-        <li><a href="#">Tausinga Kautai</a></li>
-        <li><a href="#">Sam Rozemeijer</a></li>
-      </ul>
+      <h2>Lars Bos</h2>
+    </section>
 
+    <!-- SPELERSELECTOR -->
+    <section>
+      <form>
+        <label for="speler">Speler</label>
+        <select id="speler" name="speler">
+          <option>Lars Bos</option>
+          <option>Roy Schermer</option>
+          <option>Lucas Paskins</option>
+          <option>Tausinga Kautai</option>
+          <option>Job Kat</option>
+          <option>Sam Rozemeijer</option>
+          <option>Marijn Kramer</option>
+          <option>Clayton Kiwara</option>
+          <option>Pieter Bob Wierenga</option>
+        </select>
+      </form>
+      <!-- SPELERSPROFIEL -->
       <figure>
-        <img src="images/TBF_0801.png" alt="">
+        <img src="images/TBF_0801.png" alt="Spelersfoto van Erkelasse speler Lars Bos">
       </figure>
 
       <dl>
         <dt>Nationaliteit</dt>
         <dd>
-          <img src="images/flag-for-flag-netherlands-svgrepo-com.svg" alt="">
+          <img src="images/flag-for-flag-netherlands-svgrepo-com.svg" alt="Nederlandse vlag">
           Nederland
         </dd>
 
@@ -67,57 +85,60 @@
       </dl>
     </section>
 
+  </main>
+
+  <!-- FOOTER CONTENT -->
+  <footer>
     <section>
       <h2>Contact</h2>
-      <p><strong>Bezoekadres:</strong><br>
-        Van Haerlemlaan 29<br>
-        1901 JM Castricum
+
+      <img src="images/cursor-svgrepo-com.svg" alt="">
+      <p>
+        Bezoekadres:<br>
+        Van Haerlemlaan 29 | 1901 JM Castricum
       </p>
+
+      <img src="images/mail-svgrepo-com.svg" alt="">
       <p>
         <a href="mailto:info@casrc.nl">info@casrc.nl</a>
       </p>
-    </section>
 
-    <section>
       <h2>Recente berichten</h2>
+
       <ul>
-        <li><a href="#">Uitnodiging: kom naar het clubhuis en juich Fabian toe bij de All Blacks</a></li>
-        <li><a href="#">Bart Wierenga jr. nieuwe hoofdcoach Cas1 en Rugby Coördinator</a></li>
-        <li><a href="#">Uitnodiging voor de seizoensafsluiting – Zaterdag 7 juni ben jij erbij</a></li>
-        <li><a href="#">Junioren ongeslagen kampioen</a></li>
+        <li><a href="#">Fijne feestdagen</a></li>
+        <li><a href="#">Oliebollenactie Cas RC Mini’s</a></li>
+        <li><a href="#">Overlijden Katinka Jufferemans</a></li>
+        <li><a href="#">Steun onze jeugd bij de Grote Clubactie</a></li>
       </ul>
     </section>
 
     <section>
       <h2>Informatie</h2>
+
       <ul>
         <li><a href="#">Gedragscode</a></li>
         <li><a href="#">Huishoudelijk Reglement</a></li>
         <li><a href="#">Reglement Faciliteiten</a></li>
         <li><a href="#">Statuten</a></li>
       </ul>
-    </section>
 
-    <section>
       <h2>Zoeken</h2>
-      <form action="#" method="get">
-        <label for="search">Zoeken</label>
-        <input type="search" name="s" placeholder="Zoeken">
+
+      <form action="#">
+        <input type="search" placeholder="Zoeken">
         <button type="submit">Zoeken</button>
       </form>
+
+      <figure>
+        <img src="images/CasRC Logo.png" alt="Castricumse Rugbyclub logo">
+      </figure>
     </section>
-
-    <section>
-      <img src="images/CasRC Logo.png" alt="Castricumse Rugbyclub logo">
-    </section>
-
-  </main>
-
-  <footer>
-    <img src="images/CasRC Logo.png" alt="Cas RC logo">
-    <p>&copy; 2024 Castricumse Rugby Club. All rights reserved.</p>
   </footer>
-<script src="scripts/script.js"></script>
+  <button id="scroll-top" aria-label="Scroll naar boven">
+    <img src="images/arrow-up-svgrepo-com.svg" alt="" aria-hidden="true">
+  </button>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

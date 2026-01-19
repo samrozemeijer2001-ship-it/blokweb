@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  BLauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Surface plane
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  (https://casrc.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Homepagina.png" width="375px" alt="de home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Spelerspagina.png" width="375px" alt="de home pagina">
  
 </details>
 
@@ -68,7 +68,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Homepagina.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -88,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik kwam gelukkig snel op een website die me zou uitdagen maar wel haalbaar zou zijn binnen mijn kunnen. Helaas was de 1e pagina die ik gekozen had te makkelijk en daardoor niet gekozen, had   mij wel lekker en vooral veilig geleken, maar ik krijg nu een iets grotere uitdaging wat ook leuk is.
 
 
   ### Agenda voor meeting
@@ -104,13 +104,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mijn opbreking van de pagina was nog wat globaal gemaakt en zag wat dingen over het hoofd
+  - Ik was meer vanuit een "Figma standpunt" aan het bouwen dan HTML
+  - Website was wel goedgekeurd
 
 </details>
-
+Het was een stroef begin, om weer zo diep te moeten graven voor de html en css kennis, maar de break down schets hielp daar wel mee. Merkte wel dat ik nog iets meer kennis had overgehouden aan de lessen in jaar 1 en 2 dan ik had verwacht
 
 
 
@@ -121,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb een begin gemaakt aan de html pagina's van mijn website. Dit verliep eigenlijk wel erg goed, ik denk dat ik op het css gedeelte wat meer weerstand zal ervaren dan met het html. Ik heb al een heel klein beginnetje gemaakt aan de css kant.
 
 
   ### Agenda voor meeting
@@ -135,11 +134,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  De html klopte grotendeels. Ik maakte alleen de fout om dingen al snel in een ul te zetten, zoals bijvoorbeeld het dropdown menu en de schema's. Hiervoor had ik een tabel kunnen gebruiken en forms, maar ik was even niet meer op de hoogte van het bestaan van die 2 elementen. Dus ik heb aardig wat meters gemaakt tijdens deze meeting en kan zo een goed begin maken aan de css van mijn pagina's nu de html solide staat
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - ik misde nog wat kennis in het bestaan en gebruiken van andere soorten elementen
+  - mijn html stond verder goed op wat "gevorderde" elementen na
+  - ik wilde al beginnen aan het hamburger menu, maar daar hoefde ik me nu (gelukkig) nog niet druk om te maken
 - ...
 
 </details>
@@ -168,7 +167,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het liep me verrassend goed af om de rest van de html pagina om te zetten met css. Het hielp mij enorm om de opdrachten te maken tijdens de lessen en dan ook met andere leerlingen de knelpunten samen uit te vogelen. Naar mijn idee leer je daar wat meer van dan als je het in je eentje doet. De rest van de css heb ik samen met w3s schools grotendeels kunnen oplossen. Ik hield de pagina's van de elementen open en als ik dacht dat ik een bepaalde code nodig had, opende ik die pagina om te kijken hoe ik die kon toepassen. Mochten er dingen niet werken of als ik ten einde raad was gooide ik het in chatgpt en vroeg ik of hij mij kon helpen met het vinden van de fout en mij uit te leggen waar de fout dan zat. Zo leerde ik wel op andere manieren kijken naar de code en uiteindelijk daarna meer fouten zelf ook te kunnen vinden ipv met hulp.
 
 
   ### Agenda voor meeting
@@ -182,11 +181,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Er waren nog een paar kleine dingetjes in de code die ik niet snapte of niet lekker liepen en daarmee ben ik naar Danny en de werkstudent gegaan. Zij kregen dit uiteraard in 1 minuut opgelost nadat ik er zelf 20 minuten naar heb lopen zoeken, maar dat liet me ook wel weer zien dat de fouten makkelijk te vinden zijn als je de juiste tools gebruikt. De inspectie functie in mijn browser ben ik daarna ook veel meer gaan gebruiken en dat heeft me enorm geholpen om het proces te versnellen en zo foutjes makkelijker op te sporen en ook sneller erachter te komen hoe ik sommige elementen moet aanspreken.
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik gebruikte te veel css in 1 pagina
+  - Ik moest een sheet maken met de basis stijlen en dan 2 sheets voor elke pagina een eigen
+  - Door de hoeveelheid css werd het daarom ook lastig om fouten te vinden of om dingen snel op te lossen, het was een rommeltje
   - ...
 
 </details>
@@ -201,19 +200,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Final_Spelerspagina.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Final_Homespagina.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Door gewoon optijd te beginnen en met de lessen bij te blijven ben ik erachter gekomen dat in mijn 1e poging voor dit vak de tijdsdruk het allemaal minder leuk maakte. Ik vond het coderen nog steeds wel erg lastig, maar met behulp van internet en ChatGPT heb ik veel meer kansen gehad om het te begrijpen en daarmee ook meer mogelijkheden te hebben voor mijn website. Ik heb veel geleerd over het schrijven van code en ben een stuk verder gekomen dan alleen de basis kennis over de elementen. Zoals de Javascript elementen waren mij anders nooit gelukt omdat ik nergens een uitleg had kunnen vinden die het zo uitlegt zoals ik nodig heb. Het javascript gedeelte vond ik het leukst omdat ik voor mijn gevoel daarmee veel meer moest tweaken en onderzoeken voordat het echt lukte (maar het was nog steeds bizar lastig)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/JStoelichting.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De website is niet volledig een 1:1 replica van het orgineel, maar dat kwam omdat sommige stijlingen in wordpress gedaan zijn en ik kreeg die niet door op mijn html en css, zoals bijvoorbeeld het dropdown menu op de spelerspagina. Verder is alles wel gelukt, maar dat komt ook omdat we veel meer bronnen nu tot onze beschikking hebben om van te leren. Ik had wel enorm veel moeite met de SVG's als code in mijn html te krijgen en daarnaast voelde ik ook veel weerstand bij het maken van de nieuws artikelen met alle positionering en groottes, dat was een stuk meer priegel werk dan ik had verwacht.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Priegelwerktoelichting.png" width="375px" alt="bummer">
 </details>
 
 
@@ -229,8 +229,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/cssref/sel_nth-of-type.php
+  2. https://www.w3schools.com/cssref/css3_pr_gap.php
+  3. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+  4. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  5. https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+  6. https://www.w3schools.com/jsref/met_audio_play.asp
+  7. https://www.w3schools.com/css/css_table.asp
+  8. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+
 
 </details>
